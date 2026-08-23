@@ -1,0 +1,459 @@
+{
+  "k": 1,
+  "accuracy": 0.9555555555555556,
+  "hits": 43,
+  "total": 45,
+  "results": [
+    {
+      "question": "Why does my mock classifier cause infinite recursion when used as a Mock estimator?",
+      "expected": [
+        34477
+      ],
+      "retrieved_top_k": [
+        34477
+      ],
+      "hit": true
+    },
+    {
+      "question": "Why do VotingClassifier's estimators_ give unexpected predictions when accessed directly?",
+      "expected": [
+        12189
+      ],
+      "retrieved_top_k": [
+        12189
+      ],
+      "hit": true
+    },
+    {
+      "question": "Is there an off-by-one error in the paired_manhattan_distances docstring?",
+      "expected": [
+        34315
+      ],
+      "retrieved_top_k": [
+        34315
+      ],
+      "hit": true
+    },
+    {
+      "question": "SVC behaves differently than other base estimators inside AdaBoost, why?",
+      "expected": [
+        16642
+      ],
+      "retrieved_top_k": [
+        16642
+      ],
+      "hit": true
+    },
+    {
+      "question": "SimpleImputer fails when using None to represent missing values in boolean arrays",
+      "expected": [
+        18461
+      ],
+      "retrieved_top_k": [
+        18461
+      ],
+      "hit": true
+    },
+    {
+      "question": "Ridge and RidgeCV give different results even with the same alpha value, why?",
+      "expected": [
+        26848
+      ],
+      "retrieved_top_k": [
+        26848
+      ],
+      "hit": true
+    },
+    {
+      "question": "StandardScaler gives platform-specific results, is this a numerical stability bug?",
+      "expected": [
+        34082
+      ],
+      "retrieved_top_k": [
+        34082
+      ],
+      "hit": true
+    },
+    {
+      "question": "SplineTransformer with periodic extrapolation outputs NaN for constant features",
+      "expected": [
+        26390
+      ],
+      "retrieved_top_k": [
+        26390
+      ],
+      "hit": true
+    },
+    {
+      "question": "Why do I get bad predictions from PLSRegression when scale=False?",
+      "expected": [
+        6002
+      ],
+      "retrieved_top_k": [
+        6002
+      ],
+      "hit": true
+    },
+    {
+      "question": "Using a pipeline with ColumnTransformer breaks metadata routing under dask distributed",
+      "expected": [
+        34005
+      ],
+      "retrieved_top_k": [
+        34005
+      ],
+      "hit": true
+    },
+    {
+      "question": "IterativeImputer raises a shape mismatch error when using PLSRegression as the estimator",
+      "expected": [
+        19352
+      ],
+      "retrieved_top_k": [
+        19352
+      ],
+      "hit": true
+    },
+    {
+      "question": "Is there an incorrect paper reference in the svm.cpp source comments?",
+      "expected": [
+        34086
+      ],
+      "retrieved_top_k": [
+        34086
+      ],
+      "hit": true
+    },
+    {
+      "question": "How can I reduce the verbosity of the 'Input X contains NaN' error message?",
+      "expected": [
+        28083
+      ],
+      "retrieved_top_k": [
+        28083
+      ],
+      "hit": true
+    },
+    {
+      "question": "HistGradientBoostingClassifier is very slow specifically during prediction, why?",
+      "expected": [
+        16429
+      ],
+      "retrieved_top_k": [
+        16429
+      ],
+      "hit": true
+    },
+    {
+      "question": "Are there typos or inconsistencies in the RidgeClassifier docstrings?",
+      "expected": [
+        34401
+      ],
+      "retrieved_top_k": [
+        34401
+      ],
+      "hit": true
+    },
+    {
+      "question": "Is there a way to use sample_weight with Lasso or ElasticNet for time-decayed data?",
+      "expected": [
+        3702
+      ],
+      "retrieved_top_k": [
+        3702
+      ],
+      "hit": true
+    },
+    {
+      "question": "HTML parameter links break when the docstring type contains a backtick character",
+      "expected": [
+        33830
+      ],
+      "retrieved_top_k": [
+        33830
+      ],
+      "hit": true
+    },
+    {
+      "question": "CalibratedClassifierCV with a prefitted model raises an exception inside SelfTrainingClassifier",
+      "expected": [
+        19848
+      ],
+      "retrieved_top_k": [
+        19848
+      ],
+      "hit": true
+    },
+    {
+      "question": "Is there a way to show progress bars for long-running estimator fits like MiniBatchKMeans?",
+      "expected": [
+        7574
+      ],
+      "retrieved_top_k": [
+        7574
+      ],
+      "hit": true
+    },
+    {
+      "question": "export_graphviz produces invalid output when feature names contain special characters like &",
+      "expected": [
+        28339
+      ],
+      "retrieved_top_k": [
+        28339
+      ],
+      "hit": true
+    },
+    {
+      "question": "Does KDTree support the Haversine distance metric?",
+      "expected": [
+        19038
+      ],
+      "retrieved_top_k": [
+        19038
+      ],
+      "hit": true
+    },
+    {
+      "question": "SimpleImputer converts a pyarrow-backed int32 column to float64 and then crashes",
+      "expected": [
+        31373
+      ],
+      "retrieved_top_k": [
+        31373
+      ],
+      "hit": true
+    },
+    {
+      "question": "The train_test_split documentation examples mix old NumPy output with pandas, can they be modernized?",
+      "expected": [
+        33744
+      ],
+      "retrieved_top_k": [
+        33744
+      ],
+      "hit": true
+    },
+    {
+      "question": "OneHotEncoder inverse_transform decodes unknown categories as the dropped category instead of None",
+      "expected": [
+        34549
+      ],
+      "retrieved_top_k": [
+        34549
+      ],
+      "hit": true
+    },
+    {
+      "question": "Is probabilistic output supported for One-Class SVM?",
+      "expected": [
+        30024
+      ],
+      "retrieved_top_k": [
+        30024
+      ],
+      "hit": true
+    },
+    {
+      "question": "Creating a Callback instance fails with EOFError when running in the VS Code debugger",
+      "expected": [
+        33710
+      ],
+      "retrieved_top_k": [
+        33710
+      ],
+      "hit": true
+    },
+    {
+      "question": "Can scikit-learn be built against a SciPy that uses ILP64 BLAS?",
+      "expected": [
+        33775
+      ],
+      "retrieved_top_k": [
+        33775
+      ],
+      "hit": true
+    },
+    {
+      "question": "Is there support for sparse input in NeighborhoodComponentsAnalysis?",
+      "expected": [
+        21815
+      ],
+      "retrieved_top_k": [
+        31030
+      ],
+      "hit": false
+    },
+    {
+      "question": "Is tarfile.extractall vulnerable to a path traversal / zip slip attack in this codebase?",
+      "expected": [
+        33556
+      ],
+      "retrieved_top_k": [
+        33556
+      ],
+      "hit": true
+    },
+    {
+      "question": "How do array API and sparse coefficients interact in LogisticRegression, is this documented?",
+      "expected": [
+        34114
+      ],
+      "retrieved_top_k": [
+        34114
+      ],
+      "hit": true
+    },
+    {
+      "question": "MinCovDet fails on a singular covariance matrix, is there a workaround?",
+      "expected": [
+        21818
+      ],
+      "retrieved_top_k": [
+        21818
+      ],
+      "hit": true
+    },
+    {
+      "question": "The train/test size formula in TimeSeriesSplit's docs is confusing, can it be clarified?",
+      "expected": [
+        33741
+      ],
+      "retrieved_top_k": [
+        33741
+      ],
+      "hit": true
+    },
+    {
+      "question": "Does the StandardScaler documentation explain whether it uses biased or unbiased standard deviation?",
+      "expected": [
+        33776
+      ],
+      "retrieved_top_k": [
+        33776
+      ],
+      "hit": true
+    },
+    {
+      "question": "HalvingGridSearchCV's best_params_ doesn't match the top-ranked entry in cv_results_",
+      "expected": [
+        24901
+      ],
+      "retrieved_top_k": [
+        24901
+      ],
+      "hit": true
+    },
+    {
+      "question": "Why do different solvers in LinearDiscriminantAnalysis give different coefficients?",
+      "expected": [
+        8212
+      ],
+      "retrieved_top_k": [
+        8212
+      ],
+      "hit": true
+    },
+    {
+      "question": "Is there a performance bottleneck in FastICA's logcosh function?",
+      "expected": [
+        32914
+      ],
+      "retrieved_top_k": [
+        32914
+      ],
+      "hit": true
+    },
+    {
+      "question": "Can DecisionTreeClassifier support partial_fit for incremental training?",
+      "expected": [
+        33558
+      ],
+      "retrieved_top_k": [
+        33558
+      ],
+      "hit": true
+    },
+    {
+      "question": "How do I fix a ConvergenceWarning when fitting LogisticRegression with the SAGA solver on sparse data?",
+      "expected": [
+        25198
+      ],
+      "retrieved_top_k": [
+        25198
+      ],
+      "hit": true
+    },
+    {
+      "question": "A ConvergenceWarning shows up in the plot_gpr_on_structured_data.py example, how was that addressed?",
+      "expected": [
+        31164
+      ],
+      "retrieved_top_k": [
+        31164
+      ],
+      "hit": true
+    },
+    {
+      "question": "Why does GridSearchCV use so much memory during a search, is there smarter memory management?",
+      "expected": [
+        12990
+      ],
+      "retrieved_top_k": [
+        12990
+      ],
+      "hit": true
+    },
+    {
+      "question": "feature_importances_ values seem inconsistent depending on the max_features default in RandomForest",
+      "expected": [
+        20111
+      ],
+      "retrieved_top_k": [
+        33386
+      ],
+      "hit": false
+    },
+    {
+      "question": "Why doesn't GridSearchCV progress update in real time when running inside a notebook?",
+      "expected": [
+        22849
+      ],
+      "retrieved_top_k": [
+        22849
+      ],
+      "hit": true
+    },
+    {
+      "question": "Should metrics that aggregate values return NaN instead of just emitting a warning when input has NaN?",
+      "expected": [
+        29048
+      ],
+      "retrieved_top_k": [
+        29048
+      ],
+      "hit": true
+    },
+    {
+      "question": "KBinsDiscretizer doesn't seem to handle NaN values in the input data properly",
+      "expected": [
+        9341,
+        19920
+      ],
+      "retrieved_top_k": [
+        9341
+      ],
+      "hit": true
+    },
+    {
+      "question": "Can the 'Input X contains NaN' error message suggest a fix instead of just erroring?",
+      "expected": [
+        33904
+      ],
+      "retrieved_top_k": [
+        33904
+      ],
+      "hit": true
+    }
+  ]
+}
