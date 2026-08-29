@@ -3,3 +3,8 @@ venv/
 data/*.jsonl
 chroma_db/
 __pycache__/
+chroma_db/
+venv/
+data/
+__pycache__/
+.env

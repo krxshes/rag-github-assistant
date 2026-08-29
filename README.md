@@ -115,6 +115,57 @@ python src/cli.py   # interactive mode
 # 5. Run the eval benchmark
 python src/eval.py --k 1
 ```
+## MCP interface
+
+The same retrieval tools are exposed over the [Model Context Protocol](https://modelcontextprotocol.io),
+so any MCP client can query the issue index directly without going through
+the local ReAct loop.
+
+**Tools**
+
+| Tool | Purpose |
+|---|---|
+| `search` | Semantic search over issues and comments |
+| `search_by_status` | Same, filtered to open or closed |
+| `search_by_label` | Same, filtered by GitHub label |
+| `search_by_popularity` | Ranked by community reaction count |
+| `check_citations` | Verify cited issue numbers against retrieved text |
+
+**Resources**
+
+- `sklearn://collection/stats` — index size and embedding model
+- `sklearn://issue/{number}` — all indexed chunks for one issue
+
+**Prompts**
+
+- `troubleshoot` — diagnose an error against reported issues
+- `find_similar` — check whether a bug is already reported
+
+Run the server:
+
+    python src/mcp_server.py
+
+Inspect it interactively:
+
+    npx @modelcontextprotocol/inspector venv/bin/python src/mcp_server.py
+
+Register with Claude Desktop by adding to `claude_desktop_config.json`:
+
+```json
+{
+  "mcpServers": {
+    "sklearn-issues": {
+      "command": "/absolute/path/to/rag-github-assistant/venv/bin/python",
+      "args": ["/absolute/path/to/rag-github-assistant/src/mcp_server.py"]
+    }
+  }
+}
+```
+
+Note that the MCP tools take separate typed arguments rather than the
+pipe-delimited strings used internally by the ReAct agent — that format
+existed to work around format drift in local 8B models, which MCP clients
+don't have.
 
 ## Tests
 
